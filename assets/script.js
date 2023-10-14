@@ -30,6 +30,6 @@ document.addEventListener("DOMContentLoaded", function() {
           console.log('There has been an error:', error);
       });
   }
-
+  getAdvice();
   advice_btn.addEventListener('click', getAdvice);
 });
